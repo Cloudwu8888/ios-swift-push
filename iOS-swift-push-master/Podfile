@@ -1,0 +1,14 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'ios-swift-cmtest' do
+  pod 'MobileCenter'
+  pod 'MobileCenter/Push'
+  end
+
+target 'ios-swift-cmtestTests' do
+ end
+
+target 'ios-swift-cmtestUITests' do
+    #pod 'VSMobileCenterExtensions'
+ end

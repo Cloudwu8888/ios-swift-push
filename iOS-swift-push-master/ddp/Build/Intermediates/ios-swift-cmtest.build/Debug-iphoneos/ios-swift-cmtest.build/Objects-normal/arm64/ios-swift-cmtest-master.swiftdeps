@@ -1,0 +1,7 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "5ad65cbad9e3a90209c8d11873c60442"
+build_time: [551760772, 56633000]
+inputs:
+  "/Users/bys/Documents/ios-swift-cmtest/ios-swift-cmtest/SecondViewController.swift": [551755887, 0]
+  "/Users/bys/Documents/ios-swift-cmtest/ios-swift-cmtest/AppDelegate.swift": [551757181, 0]
+  "/Users/bys/Documents/ios-swift-cmtest/ios-swift-cmtest/FirstViewController.swift": [551755887, 0]

@@ -20,7 +20,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate,MSPushDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         MSPush.setDelegate(self)
-        MSMobileCenter.start("b193fddd-5c70-4e54-90e9-08dd3090597b", withServices:[
+        MSMobileCenter.start("cb3c025e-9bb1-4d97-8359-d58a33e642d0", withServices:[
             MSAnalytics.self,
             MSCrashes.self,
             MSPush.self

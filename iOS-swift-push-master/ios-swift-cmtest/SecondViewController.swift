@@ -7,11 +7,16 @@
 //
 
 import UIKit
+import MobileCenter
+import MobileCenterAnalytics
+import MobileCenterCrashes
+import MobileCenterPush
 
 class SecondViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        MSCrashes.generateTestCrash()
         // Do any additional setup after loading the view, typically from a nib.
     }
 

@@ -272,7 +272,7 @@
 					4A71FDEF1F009B6F00A736ED = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = 3D27XEAVGH;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
 								enabled = 1;
@@ -648,6 +648,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "qw.ios-swift-cmtest";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "da9296d4-2312-4365-9a80-2741c8c2f9d6";
+				PROVISIONING_PROFILE_SPECIFIER = "iOS-swift-min";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -663,6 +665,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "qw.ios-swift-cmtest";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "da9296d4-2312-4365-9a80-2741c8c2f9d6";
+				PROVISIONING_PROFILE_SPECIFIER = "iOS-swift-min";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;

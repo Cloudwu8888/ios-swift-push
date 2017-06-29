@@ -25,6 +25,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate,MSPushDelegate {
             MSCrashes.self,
             MSPush.self
             ])
+
         // Override point for customization after application launch.
         return true
     }
